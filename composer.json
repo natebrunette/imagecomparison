@@ -1,0 +1,21 @@
+{
+    "name": "tebru/imagecomparison",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nate Brunette",
+            "email": "n@tebru.net"
+        }
+    ],
+    "require": {
+        "php": ">= 7.0",
+        "ext-gd": "*",
+        "intervention/image": "^2.3",
+        "symfony/console": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tebru\\ImageComparison\\": "src/"
+        }
+    }
+}
